@@ -1,24 +1,234 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DiveSea — NFT Marketplace</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <div class="logo">
-            DiveSea
-        </div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <nav class="menu">
-            <a href="#">DISCOVER</a>
-            <a href="#">CREATORS</a>
-            <a href="#">SELL</a>
-            <a href="#">STARS</a>
-        </nav>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <span class="logo-icon">◈</span>
+        DiveSea
+      </div>
+      <nav class="menu">
+        <a href="#">DISCOVER</a>
+        <a href="#">CREATORS</a>
+        <a href="#">SELL</a>
+        <a href="#">STARS</a>
+      </nav>
+      <div class="header-right">
+        <div class="search">
+          <span class="search-icon">search</span>
+        </div>
         <button class="connect-btn">Connect Wallet</button>
+      </div>
     </header>
-</body>
+    <main>
+      <main>
+        <!-- ===== БАННЕР ===== -->
+        <section class="hero">
+          <div class="hero-left">
+            <h1>Discover And<br />Create NFTs</h1>
+            <p>
+              Discover, Create and Sell NFTs On Our NFT Marketplace With Over
+              Thousands Of NFTs And Get a $20 bonus.
+            </p>
+            <div class="hero-buttons">
+              <button class="btn-primary">EXPLORE MORE</button>
+              <button class="btn-secondary">CREATE NFT</button>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <strong>430K+</strong> <span>Art work</span>
+              </div>
+              <div class="stat-item">
+                <strong>159K+</strong> <span>Creators</span>
+              </div>
+              <div class="stat-item">
+                <strong>87K+</strong> <span>Collections</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="hero-image-placeholder">Картинка</div>
+          </div>
+        </section>
+
+        <!-- ===== СЕКЦИЯ TOP NFT ===== -->
+        <section class="top-nft">
+          <h2 class="section-title">Weekly - Top NFT</h2>
+
+          <div class="nft-grid">
+            <!-- Карточка 1 -->
+            <div class="nft-card">
+              <div
+                class="nft-image"
+                style="
+                  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+                "
+              >
+                <span class="nft-badge">20% Off</span>
+              </div>
+              <h3>Sun-Glass</h3>
+              <p class="nft-label">Current bid</p>
+              <div class="nft-card-bottom">
+                <span class="nft-price">1.75 ETH</span>
+                <button class="nft-btn">Place a Bid</button>
+              </div>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="nft-card">
+              <div
+                class="nft-image"
+                style="
+                  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+                "
+              >
+                <span class="nft-badge">20% Off</span>
+              </div>
+              <h3>Sun-Glass</h3>
+              <p class="nft-label">Current bid</p>
+              <div class="nft-card-bottom">
+                <span class="nft-price">1.75 ETH</span>
+                <button class="nft-btn">Place a Bid</button>
+              </div>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="nft-card">
+              <div
+                class="nft-image"
+                style="
+                  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+                "
+              >
+                <span class="nft-badge">20% Off</span>
+              </div>
+              <h3>Sun-Glass</h3>
+              <p class="nft-label">Current bid</p>
+              <div class="nft-card-bottom">
+                <span class="nft-price">1.75 ETH</span>
+                <button class="nft-btn">Place a Bid</button>
+              </div>
+            </div>
+
+            <!-- Карточка 4 -->
+            <div class="nft-card">
+              <div
+                class="nft-image"
+                style="
+                  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+                "
+              >
+                <span class="nft-badge">20% Off</span>
+              </div>
+              <h3>Sun-Glass</h3>
+              <p class="nft-label">Current bid</p>
+              <div class="nft-card-bottom">
+                <span class="nft-price">1.75 ETH</span>
+                <button class="nft-btn">Place a Bid</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  СЕКЦИЯ TOP COLLECTION  -->
+        <section class="top collection">
+          <h2 class="section-title">Top Collection</h2>
+          <div class="collection-list">
+            <!-- строка 1 -->
+            <div class="collection-item">
+              <div class="collection-left">
+                <span class="collection-rank"> 1 </span>
+                <div
+                  class="collection-avatar"
+                  style="background: #f6d365"
+                ></div>
+                <div class="collection-info">
+                  <h4>Sun-Glass</h4>
+                  <p>@sun_glass</p>
+                </div>
+              </div>
+              <div class="collection-center">
+                <span class="collection-price">+6.4 ETH</span>
+              </div>
+              <div class="collection-right">
+                <span class="collection-percent green">+21,5%</span>
+                <button class="collection-btn">View</button>
+              </div>
+            </div>
+            <!-- строка 2 -->
+            <div class="collection-item">
+              <div class="collection-left">
+                <span class="collection-rank">2</span>
+                <div
+                  class="collection-avatar"
+                  style="background: #84fab0"
+                ></div>
+                <div class="collection-info">
+                  <h4>Sun-Glass</h4>
+                  <p>@sun_glass</p>
+                </div>
+              </div>
+              <div class="collection-center">
+                <span class="collection-price">+6,4% ETH</span>
+              </div>
+              <div class="collection-right">
+                <span class="collection-percent green">+21,5%</span>
+                <button class="collection-btn">View</button>
+              </div>
+            </div>
+
+            <!-- Строка 3 -->
+            <div class="collection-item">
+              <div class="collection-left">
+                <span class="collection-rank">3</span>
+                <div
+                  class="collection-avatar"
+                  style="background: #a18cd1"
+                ></div>
+                <div class="collection-info">
+                  <h4>Sun-Glass</h4>
+                  <p>@sun_glass</p>
+                </div>
+              </div>
+              <div class="collection-center">
+                <span class="collection-price">+6.4 ETH</span>
+              </div>
+              <div class="collection-right">
+                <span class="collection-percent red">-1.5%</span>
+                <button class="collection-btn">View</button>
+              </div>
+            </div>
+            <!-- Строка 4 -->
+            <div class="collection-item">
+              <div class="collection-left">
+                <span class="collection-rank">4</span>
+                <div
+                  class="collection-avatar"
+                  style="background: #ff9a9e"
+                ></div>
+                <div class="collection-info">
+                  <h4>Sun-Glass</h4>
+                  <p>@sun_glass</p>
+                </div>
+              </div>
+              <div class="collection-center">
+                <span class="collection-price">+6.4 ETH</span>
+              </div>
+              <div class="collection-right">
+                <span class="collection-percent green">+21.5%</span>
+                <button class="collection-btn">View</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </main>
+  </body>
 </html>
